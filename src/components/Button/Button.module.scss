@@ -1,0 +1,22 @@
+@import "../../styles/settings.scss";
+
+.button {
+  background-color: rgb(152, 244, 238);
+  border-radius: 2px;
+  color: black;
+  padding: 10px 10px;
+  width: 120px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  transition: grey;
+  margin: 24px auto 0 auto;
+  line-height: 10px;
+  background-position: 100% 0;
+  background-size: 200%;
+
+  &:hover {
+    background-color: rgb(26, 191, 237);
+  }
+}
