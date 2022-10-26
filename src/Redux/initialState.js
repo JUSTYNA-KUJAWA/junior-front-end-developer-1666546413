@@ -1,0 +1,180 @@
+const initialState = {
+  news: [
+    {
+      id: "1",
+      listId: "1",
+      name: "Reading",
+      img: "/images/ikona.jpg",
+      banner: "small",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      statusName: "New",
+      isActive: false,
+    },
+    {
+      id: "2",
+      listId: "1",
+      name: "Cleaning",
+      img: "/images/ikona.jpg",
+      icon: "cleaning",
+      banner: "small",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      statusName: "New",
+      isActive: false,
+    },
+    {
+      id: "3",
+      listId: "1",
+      name: "Reading",
+      img: "/images/ikona.jpg",
+      banner: "small",
+      icon: "reading",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      statusName: "New",
+      isActive: false,
+    },
+  ],
+  actives: [
+    {
+      id: "4",
+      listId: "2",
+      name: "Washing",
+      img: "/images/ikona.jpg",
+      banner: "small",
+      icon: "washing",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      statusName: "Active",
+      isActive: true,
+    },
+    {
+      id: "5",
+      listId: "2",
+      name: "Learning",
+      banner: "small",
+      img: "/images/ikona.jpg",
+      icon: "learning",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      statusName: "Active",
+      isActive: true,
+    },
+  ],
+  completeds: [
+    {
+      id: "9",
+      listId: "4",
+      name: "Cooking",
+      img: "/images/ikona.jpg",
+      banner: "small",
+      icon: "cooking",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      statusName: "Completed",
+      isActive: false,
+    },
+    {
+      id: "10",
+      listId: "4",
+      name: "Homework",
+      banner: "small",
+      img: "/images/ikona.jpg",
+      icon: "homework",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      statusName: "Completed",
+      isActive: false,
+    },
+  ],
+  blockeds: [
+    {
+      id: "11",
+      listId: "5",
+      name: "Singing",
+      banner: "small",
+      img: "/images/ikona.jpg",
+      icon: "singing",
+      description:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      statusName: "Blocked",
+      isActive: false,
+    },
+  ],
+  newsCards: [
+    {
+      id: "1",
+      taskId: "1",
+      title: "Reading",
+      content: "reading",
+      author: "mama",
+      isActive: false,
+      created_at: `${new Date("10/20/2022").toLocaleDateString("en-US", {
+        month: "short",
+        day: "numeric",
+        year: "numeric",
+      })}`,
+    },
+    {
+      id: "2",
+      taskId: "2",
+      title: "Cleaning",
+      content: "cleaning",
+      author: "mama",
+      isActive: false,
+      created_at: `${new Date("10/21/2022").toLocaleDateString("en-US")}`,
+    },
+    {
+      id: "3",
+      taskId: "3",
+      title: "Reading",
+      content: "reading",
+      author: "mama",
+      isActive: true,
+      created_at: `${new Date("10/22/2022").toLocaleDateString("en-US")}`,
+    },
+  ],
+  activesCards: [
+    {
+      id: "4",
+      taskId: "4",
+      title: "Washing",
+      content: "washing",
+      author: "tata",
+      isActive: false,
+      created_at: `${new Date("10/23/2022").toLocaleDateString("en-US")}`,
+    },
+    {
+      id: "5",
+      taskId: "5",
+      title: "Learning",
+      content: "learning",
+      author: "brat",
+      isActive: false,
+      created_at: `${new Date("10/24/2022").toLocaleDateString("en-US")}`,
+    },
+  ],
+  completedsCards: [
+    {
+      id: "9",
+      taskId: "9",
+      title: "Cooking",
+      content: "cooking",
+      author: "tata",
+      isActive: false,
+      created_at: `${new Date("10/28/2022").toLocaleDateString("en-US")}`,
+    },
+    {
+      id: "10",
+      taskId: "10",
+      title: "Homework",
+      content: "homework",
+      author: "mama",
+      isActive: false,
+      created_at: `${new Date("10/29/2022").toLocaleDateString("en-US")}`,
+    },
+  ],
+};
+
+export default initialState;

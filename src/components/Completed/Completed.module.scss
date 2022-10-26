@@ -1,0 +1,29 @@
+@import "../../styles/settings.scss";
+
+.root {
+  padding-top: 100px;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  p {
+    color: green;
+    text-decoration: none;
+    padding-left: 20px;
+  }
+  .listLink {
+    text-decoration: none;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 20px;
+    align-items: left;
+    justify-content: left;
+    img {
+      height: 50px;
+      width: 50px;
+      object-fit: cover;
+      position: relative;
+      color: red;
+    }
+  }
+}

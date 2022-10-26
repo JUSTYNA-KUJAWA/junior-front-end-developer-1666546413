@@ -1,0 +1,32 @@
+@import "../../styles/settings.scss";
+
+.root {
+  padding-top: 100px;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  padding-left: 10px;
+  h1 {
+    padding-left: 40px;
+  }
+  p {
+    padding-left: 20px;
+    color: black;
+  }
+  .listLink {
+    text-decoration: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 20px;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    img {
+      height: 50px;
+      width: 50px;
+      object-fit: cover;
+      position: relative;
+      color: red;
+    }
+  }
+}
